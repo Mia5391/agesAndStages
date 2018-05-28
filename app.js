@@ -24,5 +24,7 @@ isValidAge = function isInt(ageText){
   }
   if (isValidAge(ageInput) && ageInput > 18 && ageInput <= 21 ) {
     document.writeln ('Congratulations, you made it to young adulthood. No pressure or anything!')
+  } else {
+    document.writeln ('Oops, you have to write an integer!')
   }
 };
